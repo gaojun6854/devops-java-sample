@@ -12,7 +12,7 @@ pipeline {
     environment {
         DOCKER_CREDENTIAL_ID = 'dockerhub-glossa'
         GITHUB_CREDENTIAL_ID = 'github-gaojun6854'
-        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
+        KUBECONFIG_CREDENTIAL_ID = 'k8s-config-ks'
         REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'glossa'
         GITHUB_ACCOUNT = 'kubesphere'
